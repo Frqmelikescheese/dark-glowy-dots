@@ -1,5 +1,7 @@
 # Dark Glowy Dots 🌙
 
+![Showcase](./showcase.png)
+
 A clean, dark, and glowy Hyprland configuration with an off-white aesthetic.
 
 ## Features
