@@ -52,15 +52,15 @@ window#waybar {
 }
 
 #pulseaudio {
-    color: #8899aa;
+    color: #ffffff;
 }
 
 #battery {
-    color: #a0a0a0;
+    color: #dcdcdc;
 }
 
 #cpu {
-    color: #8899aa;
+    color: #ffffff;
 }
 
 #custom-power {

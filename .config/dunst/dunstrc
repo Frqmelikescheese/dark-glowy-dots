@@ -184,7 +184,7 @@
 	background = "#0d0f14cc"
 	foreground = "#dcdcdc"
 	frame_color = "#313244"
-	highlight = "#8899aa"
+	highlight = "#dcdcdc"
 
 [urgency_normal]
 	# script = ~/.config/dunst/scripts/playNotificationSound.sh
@@ -192,19 +192,19 @@
 	background = "#0d0f14cc"
 	foreground = "#dcdcdc"
 	frame_color = "#313244"
-	highlight = "#8899aa"
+	highlight = "#dcdcdc"
 
 [urgency_critical]
 	script = ~/.config/dunst/scripts/playNotificationSound.sh
 	timeout = 6
 	background = "#0d0f14cc"
 	foreground = "#dcdcdc"
-	frame_color = "#f38ba8"
-	highlight = "#f38ba8"
+	frame_color = "#dcdcdc"
+	highlight = "#dcdcdc"
 
 [backlight]
 	summary = "Backlight"
-	highlight = "#ffb29b"
+	highlight = "#dcdcdc"
 	set_stack_tag = "backlight"
 
 [volume]
@@ -213,8 +213,8 @@
 
 [volume-muted]
 	summary = "Volume Muted"
-	highlight = "#ee6a70"
+	highlight = "#a0a0a0"
 
 [volume-unmuted]
 	summary = "Volume Unmuted"
-	highlight = "#ee6a70"
+	highlight = "#dcdcdc"

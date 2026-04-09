@@ -1,0 +1,23 @@
+
+[general]
+framerate = 60
+bars = 32
+
+[input]
+method = pipewire
+source = auto
+
+[output]
+method = raw
+raw_target = /tmp/cava_input
+bit_format = 8bit
+channels = mono
+
+[color]
+gradient = 1
+gradient_count = 2
+gradient_color_1 = '#ffffff'
+gradient_color_2 = '#969696'
+
+[smoothing]
+noise_reduction = 77
