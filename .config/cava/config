@@ -8,10 +8,10 @@ method = pipewire
 source = auto
 
 [output]
-method = raw
-raw_target = /tmp/cava_input
-bit_format = 8bit
-channels = mono
+; method = raw
+; raw_target = /tmp/cava_input
+; bit_format = 8bit
+; channels = mono
 
 [color]
 gradient = 1
