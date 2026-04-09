@@ -1,0 +1,83 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    display-drun: " ";
+    display-run: " ";
+    drun-display-format: "{name}";
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+@theme "/dev/null"
+
+* {
+    background-color: transparent;
+    text-color: #ffffff;
+    accent-color: #ffffff;
+}
+
+window {
+    background-color: rgba(10, 10, 15, 0.7);
+    border: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    width: 700px;
+    padding: 40px;
+    location: center;
+    anchor: center;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing: 20px;
+}
+
+inputbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 15px;
+    children: [ prompt, entry ];
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+prompt {
+    padding: 0 15px 0 0;
+    text-color: #ffffff;
+    font: "JetBrainsMono Nerd Font 14";
+}
+
+entry {
+    placeholder: "Search Applications...";
+    text-color: #ffffff;
+    placeholder-color: rgba(255, 255, 255, 0.3);
+}
+
+listview {
+    lines: 8;
+    scrollbar: false;
+    fixed-height: false;
+    spacing: 5px;
+}
+
+element {
+    padding: 12px;
+    border-radius: 12px;
+}
+
+element selected {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-color: #ffffff;
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+element-icon {
+    size: 40px;
+    padding: 0 15px 0 0;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+    font: "JetBrainsMono Nerd Font 11";
+}
