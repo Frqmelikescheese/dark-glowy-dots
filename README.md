@@ -5,6 +5,8 @@ A modern, minimalist, and sleek desktop environment configuration for Hyprland, 
 ## **Theme Credits**
 **Designed by:** Frqmelikescheese
 
+![Showcase](showcase.png)
+
 ## **Key Features**
 - **White Animated Gray Blur SDDM Theme:** Featuring a custom avatar, smooth fade-in animations, and a pill-style password entry with typing feedback.
 - **Hyprlock Integration:** Perfectly matched lock screen with a circular avatar, centered input, and slide-up unlock animation.
