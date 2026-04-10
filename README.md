@@ -1,21 +1,21 @@
-# Dark Glowy Dots 🌙
+# 🌈 DARK GLOWY DOTS (White Animated Gray Blur Edition)
 
-![Showcase](./showcase.png)
+A modern, minimalist, and sleek desktop environment configuration for Hyprland, Kitty, Dunst, Rofi, and SDDM.
 
-A clean, dark, and glowy Hyprland configuration with an off-white aesthetic.
+## **Theme Credits**
+**Designed by:** Frqmelikescheese
 
-## Features
-- **Window Manager:** Hyprland (Smooth animations & glowy borders)
-- **Bar:** Waybar (Glassy with text shadows)
-- **Terminal:** Kitty (Dark off-white theme)
-- **Launcher:** Rofi (Clean & Minimal)
-- **Notifications:** Dunst
-- **Wallpaper:** Custom dark sky mountain & moon
+## **Key Features**
+- **White Animated Gray Blur SDDM Theme:** Featuring a custom avatar, smooth fade-in animations, and a pill-style password entry with typing feedback.
+- **Hyprlock Integration:** Perfectly matched lock screen with a circular avatar, centered input, and slide-up unlock animation.
+- **Glassmorphism Aesthetic:** Strong blur, consistent rounded corners, and subtle white glow borders across all components.
+- **Optimized for Hyprland:** Smooth bezier animations and a cohesive visual language for a modern "glassy" feel.
 
-## Installation
-Just one command:
-```bash
-chmod +x install.sh && ./install.sh
-```
+## **How to Install**
+Refer to the `install.sh` script or manually copy the `.config/` folder to your `~/.config/` directory.
 
-Ensure you have a Nerd Font installed (JetBrainsMono Nerd Font is recommended and included in the installer for Arch users).
+### **Dependencies (Arch Linux)**
+- `hyprland`, `hyprlock`, `sddm`
+- `qt5-quickcontrols2`, `qt5-graphicaleffects`, `qt6-5compat`
+- `JetBrainsMono Nerd Font`
+- `dunst`, `rofi`, `kitty`, `waybar`
