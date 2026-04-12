@@ -11,7 +11,7 @@ echo -e "${BLUE}--- Designed by Frqmelikescheese ---${NC}"
 
 # 1. DEPENDENCIES (Arch Linux focus)
 # Added: sddm, hyprlock, and Qt modules for the theme
-DEPS="hyprland hyprlock sddm qt5-quickcontrols2 qt5-graphicaleffects qt6-5compat qt6-declarative waybar kitty rofi dunst swaybg ttf-jetbrains-mono-nerd brightnessctl wireplumber grim slurp wl-clipboard network-manager-applet thunar cava fastfetch"
+DEPS="hyprland hyprlock hypridle sddm qt5-quickcontrols2 qt5-graphicaleffects qt6-5compat qt6-declarative waybar kitty rofi dunst swaybg ttf-jetbrains-mono-nerd brightnessctl wireplumber grim slurp wl-clipboard network-manager-applet thunar cava fastfetch"
 
 if command -v yay >/dev/null 2>&1; then
     echo -e "${GREEN}Installing dependencies with yay...${NC}"
